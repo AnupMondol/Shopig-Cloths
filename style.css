@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* Heading section */
+.container .heading{
+    width: 1340px;
+    display: flex;
+    margin: auto;
+    
+}
+.heading h1{
+    width: 100%;
+}
+.heading h5{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.heading h5 img{
+    margin-top: 5px;
+    margin-right: 12px;
+    height: 22px;
+    width: 26px;
+}
+
+/* Item Section */
+.all-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.new-items{
+    height: 500px;
+    width: 1340px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    grid-gap: 22px;
+    padding: 10px;
+    
+    
+    
+}
+
+.images{
+    height: 380px;
+    width: 100%;
+    
+    
+}
+
+.item1{
+    width: 320px;
+    text-align: center;
+    position: relative;
+}
+.item1 h4{
+    margin-top: 5px;
+    
+}
+.item2{
+    width: 310px;
+    text-align: center;
+    position: relative;
+}
+.item2 h4{
+    margin-top: 5px;
+}
+.item3{
+    width: 310px;
+    text-align: center;
+    position: relative;
+}
+.item3 h4{
+    margin-top: 5px;
+}
+.hot-prise{
+    font-size: large;
+    color: red;
+}
+.cross{
+    background-color: black;
+    height: 2px;
+    width: 62px;
+    margin-left: 85px;
+    margin-top:-31px ;
+    
+}
+.item4{
+    width: 310px;
+    text-align: center;
+    position: relative;
+}
+.item4 h4{
+    margin-top: 5px;
+}
+
+.size{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.size div{
+    height: 25px;
+    width: 25px;
+    border: solid 1px black;
+    margin: 5px;
+    padding-top: 3px;
+}
+.size div:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.colours{
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+    position: relative;
+    
+    
+}
+
+.pink{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: pink;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.pink:hover{
+    border: 2px solid black;
+}
+.brize{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: beige;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.brize:hover{
+    border: 2px solid black;
+}
+.red{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: red;
+    border-radius: 20px;
+   
+}
+.red:hover{
+    border: 2px solid black;
+}
+.black{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: black;
+    border-radius: 20px;
+}
+.black:hover{
+    border: 2px solid black;
+}
+.blue{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+.blue:hover{
+    border: 2px solid black;
+}
+
+.hot{
+    margin-bottom: -55px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.hot h5{
+    background-color: red;
+    color: white;
+    width: 45px;
+    padding: 4px;
+}
+.hot .black1{
+    margin-top: -15px;
+    background-color: black;
+    color: white;
+    width: 45px;
+    padding: 4px; 
+}
+.hot .black2{
+    background-color: black;
+    color: white;
+    width: 45px;
+    padding: 4px;
+}
+
+/* Image Changing Section */
+
+.image-2{
+    height: 380px;
+    width: 100%;
+    margin-top: -380px;
+    display: none;
+    transition: all 0.500s ease-in-out;
+    
+}
+.image-4{
+    height: 380px;
+    width: 100%;
+    margin-top: -380px;
+    display: none;
+    transition: all 0.500s ease-in-out;
+}
+.image-6{
+    height: 380px;
+    width: 100%;
+    margin-top: -380px;
+    display: none;
+    transition: all 0.500s ease-in-out;
+}
+.image-8{
+    height: 380px;
+    width: 100%;
+    margin-top: -380px;
+    display: none;
+    transition: all 0.500s ease-in-out;
+}
+
+.item1:hover .image-2{
+    display: block;
+    
+}
+.item2:hover .image-4{
+    display: block;
+}
+.item3:hover .image-6{
+    display: block;
+}
+.item4:hover .image-8{
+    display: block;
+}
+
+
+
+/* Effects */
+.links{
+    height: 50px;
+    width: 260px;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    position: relative;
+    /* overflow: hidden; */
+    padding-left: 60px;
+    /* display: none; */
+}
+.left1{
+    background-color: white;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    margin-left: -100px;
+    margin-top: -25px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.280s ease-in;
+}
+.left1:hover{
+    background-color: rgb(36, 36, 36);
+}
+.middle1{
+    background-color: #fff;
+    padding: 5px;
+    margin-top: 45px;
+    height: 25px;
+    width: 25px;
+    margin-left: -49px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.450s ease-in;
+}
+.middle1:hover{
+    background-color: rgb(36, 36, 36);
+}
+.right1{
+    background-color: white;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    margin-top: -25px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.600s ease-in;
+}
+.right1:hover{
+    background-color: rgb(36, 36, 36);
+}
+ 
+.item1:hover .left1{
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item1:hover .right1{
+    
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item1:hover .middle1{
+    
+    transform: translateY(-34px);
+    opacity: 1;
+}
+.item2:hover .left1{
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item2:hover .right1{
+    
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item2:hover .middle1{
+    
+    transform: translateY(-34px);
+    opacity: 1;
+}
+.item3:hover .left1{
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item3:hover .right1{
+    
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item3:hover .middle1{
+    
+    transform: translateY(-34px);
+    opacity: 1;
+}
+.item4:hover .left1{
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item4:hover .right1{
+    
+    transform: translateY(36px);
+    opacity: 1;
+}
+.item4:hover .middle1{
+    
+    transform: translateY(-34px);
+    opacity: 1;
+}
+
+
